@@ -8,21 +8,21 @@ function Locations() {
       titleAr: "بيت العروس",
       time: "07:00 AM",
       address: "Bole Medhanialem, Addis Ababa",
-      link: "https://maps.google.com"
+      link: "https://www.google.com/maps/search/Bole+Medhanialem+Church+Addis+Ababa"
     },
     {
       title: "Groom's House",
       titleAr: "بيت العريس",
       time: "09:00 AM",
       address: "CMC Michael, Addis Ababa",
-      link: "https://maps.google.com"
+      link: "https://www.google.com/maps/search/CMC+Michael+Addis+Ababa"
     },
     {
       title: "The Grand Venue",
       titleAr: "قاعة الاحتفال",
       time: "04:00 PM",
       address: "Sheraton Addis, Taitu St",
-      link: "https://maps.google.com"
+      link: "https://www.google.com/maps/search/Sheraton+Addis+Taitu+St+Addis+Ababa"
     }
   ];
 

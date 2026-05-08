@@ -57,32 +57,18 @@ function Registry() {
           viewport={{ amount: 0.3 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           style={{ 
-            padding: '24px',
+            padding: '32px 24px',
             background: 'rgba(201, 168, 76, 0.05)',
             border: '1px solid rgba(201, 168, 76, 0.1)',
-            transformOrigin: 'top'
+            transformOrigin: 'top',
+            borderRadius: 'var(--rounded-lg)'
           }}
         >
-          <p style={{ fontSize: '10px', letterSpacing: '0.2em', color: 'var(--color-on-surface-variant)', textTransform: 'uppercase', marginBottom: '8px' }}>
-            Commercial Bank of Ethiopia
+          <p style={{ fontSize: '11px', letterSpacing: '0.2em', color: 'var(--color-primary)', textTransform: 'uppercase', marginBottom: '16px', fontWeight: 600 }}>
+            Our New Home
           </p>
-          <motion.p 
-            initial={{ opacity: 0, filter: 'blur(6px)' }}
-            whileInView={{ opacity: 1, filter: 'blur(0px)' }}
-            viewport={{ amount: 0.3 }}
-            transition={{ duration: 0.6, delay: 0.7 }}
-            style={{ 
-              fontFamily: 'var(--font-family-headline)', 
-              fontSize: '24px', 
-              color: 'var(--color-primary)', 
-              letterSpacing: '0.1em',
-              marginBottom: '8px'
-            }}
-          >
-            1000 1234 5678
-          </motion.p>
-          <p style={{ fontSize: '11px', color: 'var(--color-on-surface-variant)', opacity: 0.6, letterSpacing: '0.1em' }}>
-            Ahmed & Fatima
+          <p style={{ color: 'var(--color-on-surface-variant)', fontSize: '14px', lineHeight: 1.8, marginBottom: 0 }}>
+            As we embark on this new chapter and move into our first home together, we would be deeply grateful for any contributions toward furnishing our new space or home essentials to help us build our nest.
           </p>
         </motion.div>
       </motion.div>

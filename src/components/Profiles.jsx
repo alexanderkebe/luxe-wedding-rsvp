@@ -44,6 +44,29 @@ function Profiles() {
           whileHover={{ scale: 1.02, boxShadow: '0 12px 40px rgba(201, 168, 76, 0.15)' }}
           style={{ textAlign: 'center', padding: '40px 32px' }}
         >
+          {/* Circular Profile Image */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.4, type: 'spring' }}
+            style={{ 
+              width: '120px', 
+              height: '120px', 
+              borderRadius: '50%', 
+              margin: '0 auto 24px',
+              border: '2px solid var(--color-primary)',
+              padding: '4px',
+              background: 'rgba(201, 168, 76, 0.1)'
+            }}
+          >
+            <img 
+              src="/bride.png" 
+              alt="Fatima" 
+              style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} 
+            />
+          </motion.div>
+
           <motion.p
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 0.5, scale: 1 }}
@@ -81,6 +104,29 @@ function Profiles() {
           whileHover={{ scale: 1.02, boxShadow: '0 12px 40px rgba(201, 168, 76, 0.15)' }}
           style={{ textAlign: 'center', padding: '40px 32px' }}
         >
+          {/* Circular Profile Image */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ amount: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.6, type: 'spring' }}
+            style={{ 
+              width: '120px', 
+              height: '120px', 
+              borderRadius: '50%', 
+              margin: '0 auto 24px',
+              border: '2px solid var(--color-primary)',
+              padding: '4px',
+              background: 'rgba(201, 168, 76, 0.1)'
+            }}
+          >
+            <img 
+              src="/groom.png" 
+              alt="Ahmed" 
+              style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} 
+            />
+          </motion.div>
+
           <motion.p
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 0.5, scale: 1 }}
