@@ -110,18 +110,6 @@ function Locations() {
           </motion.div>
         ))}
       </div>
-      
-      <motion.div 
-        style={{ marginTop: '48px', textAlign: 'center' }}
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ amount: 0.3 }}
-        transition={{ duration: 0.6 }}
-      >
-        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ahmed+and+Fatima+Wedding" target="_blank" rel="noreferrer" className="btn btn-glass">
-          Add to Calendar
-        </a>
-      </motion.div>
     </section>
   );
 }
